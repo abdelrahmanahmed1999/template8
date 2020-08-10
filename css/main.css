@@ -399,7 +399,11 @@
   }
 
   .latest-posts .card .card-body .card-title{
-      font-size:15px;
+      font-size:9px;
+  }
+
+  .latest-posts .card .card-body .card-subtitle{
+    font-size:9px;
   }
 
 }
@@ -425,6 +429,7 @@
     color: #787878;
     margin-bottom: 5px
 }
+
   
 .latest-posts .card .card-link {
     color: #ed1d24;
