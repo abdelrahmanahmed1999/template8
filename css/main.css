@@ -182,7 +182,6 @@
     .features p{
         font-size:15px;
     }
-
 }
 
 /*end features*/
@@ -212,7 +211,7 @@
     margin-bottom:20px;
 }
 
-@media (max-width:767px){
+@media(max-width:767px){
 
     .overview{
         padding:20px 0;
@@ -295,7 +294,7 @@
     transition:all .5s ease-in-out;
 }
 
-@media (max-width:767px){
+@media(max-width:767px){
 
     .featured-work ul{
         margin:0;
@@ -370,7 +369,7 @@
     margin-bottom:20px;
 }
 
-@media (max-width:767px){
+@media(max-width:767px){
 
     .latest-posts{
         padding:20px 0;
@@ -447,7 +446,7 @@
     padding:35px;
 }
 
-@media (max-width:767px){
+@media(max-width:767px){
 
     .testimonials .carousel-item{
         margin-top: 60px;
@@ -477,15 +476,15 @@
     z-index: 3
 }
 
-.carousel-inner{
+.testimonials .carousel-inner{
     height:310px;
 }
 
-.carousel-item{
+.testimonials .carousel-item{
     height:300px !important;
 }
 
-.carousel-indicators{
+.testimonials .carousel-indicators{
     bottom:-10px;
 }
 
@@ -540,7 +539,7 @@
     margin-bottom:60px;
 }
 
-@media (max-width:767px){
+@media(max-width:767px){
     
     .table{
         padding:20px 0;
@@ -631,7 +630,7 @@
     padding-right:0;
 }
 
-@media (max-width:767px){
+@media(max-width:767px){
 
     .choose-us .h1 {
         margin: auto;
@@ -746,7 +745,7 @@
 }
 
 
-@media (max-width:767px){
+@media(max-width:767px){
 
     .footer{
         padding:20px 0;
