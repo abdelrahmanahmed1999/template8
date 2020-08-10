@@ -170,11 +170,19 @@
     color:#CCC;
 }
 
-@media (min-width:768px) and (max-width:991px){
-    .features .small{
-        width: 20%;
-        padding-left: 45px
+@media(max-width:767px){
+    .col-md-3{
+        width: 50%;
     }
+
+    .features h3{
+        font-size:15px;
+    }
+    
+    .features p{
+        font-size:15px;
+    }
+
 }
 
 /*end features*/
@@ -296,6 +304,15 @@
     .featured-work ul li{
      margin-left: 0px;
     padding: 10px 10px !important;
+    font-size:10px;
+    }
+
+    .col-xs-2{
+        width:16.6666%;
+    }
+
+    .col-xs-3{
+        width:25%;
     }
 
     .featured-work h2{
@@ -367,7 +384,10 @@
 
     .latest-posts .post-desc{
         width: 100% !important;
+    }
 
+    .col-xs-4{
+        width:33.3333%;
     }
      
   .latest-posts .card .card-body p,
@@ -412,7 +432,7 @@
     font-weight: bold;
 }
   
-/*end card*/
+/*end latest-posts*/
 
 /* Start Testimonials */
 
@@ -424,6 +444,7 @@
     background-image: url('../img/testimonial.jpg');
     position: relative;
     max-height:450px;
+    padding:35px;
 }
 
 @media (max-width:767px){
@@ -456,6 +477,18 @@
     z-index: 3
 }
 
+.carousel-inner{
+    height:310px;
+}
+
+.carousel-item{
+    height:300px !important;
+}
+
+.carousel-indicators{
+    bottom:-10px;
+}
+
 .testimonials .carousel-caption {
     top: 50%;
     margin-top: -158px
@@ -463,6 +496,10 @@
 
 .testimonials .carousel-caption img {
     margin-bottom: 20px
+}
+
+.testimonials .carousel-caption .img-circle{
+    border-radius:50%;
 }
 
 .testimonials .carousel-caption h3 {
@@ -663,6 +700,12 @@
     color: #ed1d24;
     font-size: 16px;
     margin:0;
+}
+
+@media(max-width:767px){
+    .col-xs-6{
+        width:50%;
+    }
 }
 
 /*end stat*/
